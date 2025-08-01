@@ -5,7 +5,7 @@ from django.http import JsonResponse, HttpResponseBadRequest
 from django.urls import path
 
 def add_numbers(a: int, b: int) -> int:
-    return a + b
+    return a - b
 
 def add_view(request):
     try:
